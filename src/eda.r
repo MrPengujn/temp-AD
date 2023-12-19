@@ -1,5 +1,6 @@
 library(dplyr)
 library(ggplot2)
+library(tidyr)
 
 wine_data <- read.csv("./src/WineQuality.csv")
 wine_data <- wine_data %>% select(-Id)
